@@ -15,9 +15,9 @@ What is Being Asked? Pseudocode.
     - What order are we loading the tables in?
   - Pc
     - Start from the table that will have no dependencies and add in other tables and specify their foreign keys. There are three groups of tables to load in in this order:
-        1. **departments**, **salaries**, and **titles** are to be loaded in first with no priority over one another
+        1. **departments** and **titles** are to be loaded in first with no priority over one another
         2. **employees** are to be loaded in next as it is dependent on the **titles** table being created
-        3. **dept_manager** and **dept_emp** are to be loaded in last as they are both dependent on the **employees** and **departments**
+        3. **dept_manager**, **dept_emp**, and **salaries** are to be loaded in last as they are both dependent on the **employees** and **departments**
 - Employee Info
   - WiBA
     - placeholder
