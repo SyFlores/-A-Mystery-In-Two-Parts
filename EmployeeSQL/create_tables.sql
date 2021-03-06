@@ -54,7 +54,7 @@ CREATE TABLE dept_manager (
 
 CREATE TABLE salaries (
   emp_no int NOT NULL,
-  address character varying(50) NOT NULL,
+  salary varchar(50) NOT NULL,
 	CONSTRAINT PK_salaries PRIMARY KEY (emp_no),
 	CONSTRAINT fk_emp_no_3 FOREIGN KEY(emp_no) REFERENCES employees(emp_no)
 );
