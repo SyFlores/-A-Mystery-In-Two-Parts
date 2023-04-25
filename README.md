@@ -1,4 +1,4 @@
-# sql-challenge
+#  A Mystery In Two Parts
 
 ### Data
 Data is largely unaltered and unedited. The only edit to the data that has been made to the **Data/employees.csv** file to convert the birth_date and hire_date fields from **MM/DD/YYYY** format to the standard **YYYY-MM-YY** date format.
