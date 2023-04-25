@@ -19,7 +19,12 @@ Within the ERM, we will create a table schema for each of the six CSV files. We 
 - Specify data types, primary keys, foreign keys, and other constraints.
     - All primary keys will be checked for uniqueness, otherwise we will have to create a composite key.
     - In order to handle the assignment of foreign keys appropriately, we will create them in the following order:
-        - LIST THE 6 TABLES
+        - departments
+        - titles
+        - employees
+        - dept_emp
+        - dept_manager
+        - salaries
 - Import each CSV file in it's own corresponding SQL table in the order that the tables were created, accounting for headers to avoid errors
 
 ### Data Analysis
